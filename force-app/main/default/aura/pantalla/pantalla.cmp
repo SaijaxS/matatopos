@@ -1,0 +1,25 @@
+<aura:component controller="Random">
+    <aura:attribute name="score" type="Integer" />
+
+    <div style="display: none;" id="pantalla">
+        <div style="display:flex">
+            <c:topos posicion="1" />
+            <c:topos posicion="2" />
+            <c:topos posicion="3" />
+        </div>
+        <div style="display:flex; padding: 30px;">
+            <c:topos posicion="4" />
+            <c:topos posicion="5" />
+            
+        </div>
+        <div style="display:flex">
+            <c:topos posicion="6" />
+            <c:topos posicion="7" />
+            <c:topos posicion="8" />
+            
+        </div>
+    </div>
+    <button onclick="{!c.clickStart}">Start</button>
+    <button onclick="{!c.alertscore}">Stop</button>
+    <aura:handler event="c:correcto" action="{!c.clickContinue}"/>
+</aura:component>	
