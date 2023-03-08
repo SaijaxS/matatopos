@@ -7,7 +7,7 @@
             <c:topos posicion="2" />
             <c:topos posicion="3" />
         </div>
-        <div style="display:flex; padding: 30px;">
+        <div style="display:flex;">
             <c:topos posicion="4" />
             <c:topos posicion="5" />
             
