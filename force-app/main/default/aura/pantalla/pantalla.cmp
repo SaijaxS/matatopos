@@ -19,7 +19,9 @@
             
         </div>
     </div>
+    <div>
     <button onclick="{!c.clickStart}">Start</button>
     <button onclick="{!c.alertscore}">Stop</button>
+    </div>
     <aura:handler event="c:correcto" action="{!c.clickContinue}"/>
 </aura:component>	

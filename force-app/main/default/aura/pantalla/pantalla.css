@@ -1,32 +1,19 @@
-.THIS {
-}
-/* Headers */
-.THIS.h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #333;
-}
 
-.THIS.h2 {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #555;
-}
-
-/* Paragraphs */
-.THIS.p {
-  font-size: 1.25rem;
-  line-height: 1.5;
-  color: #777;
-}
-
-/* Links */
-.THIS.a {
-  color: #336699;
-  text-decoration: none;
-}
-
-.THIS.a:hover {
-  color: #225588;
-  text-decoration: underline;
-}
+  .THIS#pantalla > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 33.33%;
+    height: 33.33%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .THIS#pantalla > div:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
