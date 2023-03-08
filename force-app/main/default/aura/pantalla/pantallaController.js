@@ -3,6 +3,7 @@
     clickStart: function (component, event, helper) {
         document.getElementById("pantalla").style.display = "block";
         component.set("v.score", 0)
+        
         var action = component.get("c.getRandomNum");
         action.setParams({
             "min": 1,
