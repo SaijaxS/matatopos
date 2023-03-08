@@ -3,19 +3,20 @@
 
     <div style="display: none;" id="pantalla">
         <div style="display:flex">
-            <c:topos posicion="1" />
-            <c:topos posicion="2" />
-            <c:topos posicion="3" />
+            <c:topos posicion="1"> <span>1</span></c:topos>
+           
+            <c:topos posicion="2" ></c:topos>
+            <c:topos posicion="3" ></c:topos>
         </div>
         <div style="display:flex;">
-            <c:topos posicion="4" />
-            <c:topos posicion="5" />
+            <c:topos posicion="4"></c:topos>
+            <c:topos posicion="5"></c:topos>
             
         </div>
         <div style="display:flex">
-            <c:topos posicion="6" />
-            <c:topos posicion="7" />
-            <c:topos posicion="8" />
+            <c:topos posicion="6" ></c:topos>
+            <c:topos posicion="7" ></c:topos>
+            <c:topos posicion="8"> </c:topos>
             
         </div>
     </div>
